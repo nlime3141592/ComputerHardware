@@ -1,0 +1,334 @@
+{
+  "uuid": "eb5abaed7e78131be1683b1e4d134049",
+  "path": "Offline/Computer",
+  "name": "Computer",
+  "content": "",
+  "created_at": "2026-07-08 13:09:45",
+  "updated_at": "2026-07-08 18:11:47",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "9887a774f3d23ea4276c30bbbce5f7e9",
+      "title": "Common Register",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "20310ff58fe54b22aeaeb5402bdd1216": 2,
+        "ce6037bbafe24ac5b800849cfdda55d8": 1,
+        "3f1eddb3d4d145aaa844f5b3c669afdd": 1,
+        "2005b78168804f92812ab2f59aca6fb7": 3,
+        "de9602f450514491a64c2adc9f2d297c": 1,
+        "ccf3fe49c2e14015a2dc81cf869792eb": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DM74LS245N",
+          3,
+          "PDIP-20_L25.9-W6.6-P2.54-LS7.9-BL",
+          "BUS_IN,BUS_OUT,OUT",
+          {
+            "Manufacturer Part": "DM74LS245N",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3587235"
+          }
+        ],
+        [
+          "75915-410LF",
+          1,
+          "HDR-TH_10P-P2.54-V-F-1",
+          "CTRL",
+          {
+            "Manufacturer Part": "75915-410LF",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3321291"
+          }
+        ],
+        [
+          "SN74LS08N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "CTRL1",
+          {
+            "Manufacturer Part": "SN74LS08N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2869595"
+          }
+        ],
+        [
+          "SN74LS32N",
+          1,
+          "PDIP-14_L19.6-W6.5-P2.54-LS7.9-BL",
+          "CTRL2",
+          {
+            "Manufacturer Part": "SN74LS32N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C273644"
+          }
+        ],
+        [
+          "XDM254-1-16-W-8.5-G0",
+          1,
+          "HDR-TH_16P-P2.54-H-F-W10.0-N",
+          "DATA",
+          {
+            "Manufacturer Part": "XDM254-1-16-W-8.5-G0",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19268747"
+          }
+        ],
+        [
+          "SN74LS169BN",
+          2,
+          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
+          "R_H,R_L",
+          {
+            "Manufacturer Part": "SN74LS169BN",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1548008"
+          }
+        ]
+      ],
+      "updateTime": 1783501443,
+      "createTime": 1783483785,
+      "histories": [],
+      "created_at": "2026-07-08 13:09:45",
+      "updated_at": "2026-07-08 18:04:03"
+    },
+    {
+      "uuid": "39b9ed6b8173d322f2a39680ab18f3be",
+      "title": "ALU",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "b7117dffb1fb4066af2f467808408aeb": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "DM74LS245N",
+          3,
+          "PDIP-20_L25.9-W6.6-P2.54-LS7.9-BL",
+          "BUS_IN,BUS_OUT,OUT",
+          {
+            "Manufacturer Part": "DM74LS245N",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3587235"
+          }
+        ],
+        [
+          "75915-410LF",
+          1,
+          "HDR-TH_10P-P2.54-V-F-1",
+          "CTRL",
+          {
+            "Manufacturer Part": "75915-410LF",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3321291"
+          }
+        ],
+        [
+          "SN74LS08N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "CTRL1",
+          {
+            "Manufacturer Part": "SN74LS08N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2869595"
+          }
+        ],
+        [
+          "SN74LS32N",
+          1,
+          "PDIP-14_L19.6-W6.5-P2.54-LS7.9-BL",
+          "CTRL2",
+          {
+            "Manufacturer Part": "SN74LS32N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C273644"
+          }
+        ],
+        [
+          "XDM254-1-16-W-8.5-G0",
+          1,
+          "HDR-TH_16P-P2.54-H-F-W10.0-N",
+          "DATA",
+          {
+            "Manufacturer Part": "XDM254-1-16-W-8.5-G0",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19268747"
+          }
+        ],
+        [
+          "SN74LS169BN",
+          2,
+          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
+          "R_H,R_L",
+          {
+            "Manufacturer Part": "SN74LS169BN",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1548008"
+          }
+        ],
+        [
+          "XD74LS181",
+          2,
+          "DIP-24_L32.0-W13.8-P2.54-LS15.6-BL",
+          "U1,U2",
+          {
+            "Manufacturer Part": "XD74LS181",
+            "Manufacturer": "XINLUDA(信路达)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C561300"
+          }
+        ]
+      ],
+      "updateTime": 1783501907,
+      "createTime": 1783501853,
+      "histories": [],
+      "created_at": "2026-07-08 18:10:53",
+      "updated_at": "2026-07-08 18:11:47"
+    },
+    {
+      "uuid": "9c2d546963468ebda754a51145adde45",
+      "puuid": "eb5abaed7e78131be1683b1e4d134049",
+      "title": "PCB_Common Register",
+      "filename": "PCB_Common Register.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "dbf8bf2c4285421f9f2eb915163d57a0": 3,
+        "2278810e3ec34c089b6a38ee87d430b2": 1,
+        "7f0ad408a835483d8942d64d433787e6": 1,
+        "e5060eb2ad63465281422a9e097e9937": 1,
+        "4d32c6da5cfe43d381509c7b1fb89522": 1,
+        "5274406e19354d008c5fde605f0c6ecf": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SN74LS169BN",
+          2,
+          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
+          "U1,U2",
+          {
+            "Manufacturer Part": "SN74LS169BN",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C1548008"
+          }
+        ],
+        [
+          "SN74LS32N",
+          1,
+          "PDIP-14_L19.6-W6.5-P2.54-LS7.9-BL",
+          "U3",
+          {
+            "Manufacturer Part": "SN74LS32N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C273644"
+          }
+        ],
+        [
+          "SN74LS08N",
+          1,
+          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "U4",
+          {
+            "Manufacturer Part": "SN74LS08N",
+            "Manufacturer": "TI(德州仪器)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C2869595"
+          }
+        ],
+        [
+          "DM74LS245N",
+          3,
+          "PDIP-20_L25.9-W6.6-P2.54-LS7.9-BL",
+          "U5,U6,U7",
+          {
+            "Manufacturer Part": "DM74LS245N",
+            "Manufacturer": "onsemi(安森美)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3587235"
+          }
+        ],
+        [
+          "XDM254-1-16-W-8.5-G0",
+          1,
+          "HDR-TH_16P-P2.54-H-F-W10.0-N",
+          "U9",
+          {
+            "Manufacturer Part": "XDM254-1-16-W-8.5-G0",
+            "Manufacturer": "XUNDA(讯答)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C19268747"
+          }
+        ],
+        [
+          "75915-410LF",
+          1,
+          "HDR-TH_10P-P2.54-V-F-1",
+          "U10",
+          {
+            "Manufacturer Part": "75915-410LF",
+            "Manufacturer": "Amphenol",
+            "Supplier": "LCSC",
+            "Supplier Part": "C3321291"
+          }
+        ]
+      ],
+      "updateTime": 1783501838,
+      "createTime": 1783489088,
+      "histories": [],
+      "created_at": "2026-07-08 14:38:08",
+      "updated_at": "2026-07-08 18:10:38"
+    }
+  ],
+  "sort": [
+    "9887a774f3d23ea4276c30bbbce5f7e9",
+    "39b9ed6b8173d322f2a39680ab18f3be"
+  ],
+  "title": "Computer",
+  "foldername": "Computer",
+  "schfilename": "Computer.json",
+  "schfilemtime": 1783501907133
+}
