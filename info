@@ -1,10 +1,10 @@
 {
   "uuid": "eb5abaed7e78131be1683b1e4d134049",
-  "path": "Offline/Computer",
-  "name": "Computer",
+  "path": "Offline/ComputerHardware",
+  "name": "ComputerHardware",
   "content": "",
   "created_at": "2026-07-08 13:09:45",
-  "updated_at": "2026-07-08 18:11:47",
+  "updated_at": "2026-07-14 04:17:19",
   "stick": "",
   "documents": [
     {
@@ -19,8 +19,8 @@
         "ce6037bbafe24ac5b800849cfdda55d8": 1,
         "3f1eddb3d4d145aaa844f5b3c669afdd": 1,
         "2005b78168804f92812ab2f59aca6fb7": 3,
-        "de9602f450514491a64c2adc9f2d297c": 1,
-        "ccf3fe49c2e14015a2dc81cf869792eb": 1
+        "6964f30e51ca42c78f718c6e74460273": 1,
+        "8f8dd1ab514f441380aff6d3d1b7a8d0": 1
       },
       "BOM": [
         [
@@ -31,10 +31,10 @@
           "CustomPara"
         ],
         [
-          "DM74LS245N",
+          "74x245",
           3,
           "PDIP-20_L25.9-W6.6-P2.54-LS7.9-BL",
-          "BUS_IN,BUS_OUT,OUT",
+          "ALWAYS_OUT,BUS_IN,BUS_OUT",
           {
             "Manufacturer Part": "DM74LS245N",
             "Manufacturer": "onsemi(安森美)",
@@ -43,19 +43,19 @@
           }
         ],
         [
-          "75915-410LF",
+          "HDR-TH_10P",
           1,
-          "HDR-TH_10P-P2.54-V-F-1",
+          "HDR-TH_10P-P2.54_B25410120-10PB0513-H25A60",
           "CTRL",
           {
-            "Manufacturer Part": "75915-410LF",
-            "Manufacturer": "Amphenol",
+            "Manufacturer Part": "B25410120-10PB0513-H25A60",
+            "Manufacturer": "HMTCONN(华明通)",
             "Supplier": "LCSC",
-            "Supplier Part": "C3321291"
+            "Supplier Part": "C42385486"
           }
         ],
         [
-          "SN74LS08N",
+          "74x08",
           1,
           "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
           "CTRL1",
@@ -67,7 +67,7 @@
           }
         ],
         [
-          "SN74LS32N",
+          "74x32",
           1,
           "PDIP-14_L19.6-W6.5-P2.54-LS7.9-BL",
           "CTRL2",
@@ -79,19 +79,19 @@
           }
         ],
         [
-          "XDM254-1-16-W-8.5-G0",
+          "HDR-TH_16P",
           1,
-          "HDR-TH_16P-P2.54-H-F-W10.0-N",
+          "HDR-TH_16P-P2.54_B25420220-16PB0513-H85C32",
           "DATA",
           {
-            "Manufacturer Part": "XDM254-1-16-W-8.5-G0",
-            "Manufacturer": "XUNDA(讯答)",
+            "Manufacturer Part": "ZX-PZ1.27-1-16PZZ",
+            "Manufacturer": "Megastar(兆星)",
             "Supplier": "LCSC",
-            "Supplier Part": "C19268747"
+            "Supplier Part": "C41370748"
           }
         ],
         [
-          "SN74LS169BN",
+          "74x169",
           2,
           "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
           "R_H,R_L",
@@ -103,120 +103,11 @@
           }
         ]
       ],
-      "updateTime": 1783501443,
+      "updateTime": 1783591666,
       "createTime": 1783483785,
       "histories": [],
       "created_at": "2026-07-08 13:09:45",
-      "updated_at": "2026-07-08 18:04:03"
-    },
-    {
-      "uuid": "39b9ed6b8173d322f2a39680ab18f3be",
-      "title": "ALU",
-      "description": "",
-      "docType": "1",
-      "master": "",
-      "thumb": "/images/thumb-default.png",
-      "components": {
-        "b7117dffb1fb4066af2f467808408aeb": 2
-      },
-      "BOM": [
-        [
-          "Value",
-          "Quantity",
-          "Package",
-          "Components",
-          "CustomPara"
-        ],
-        [
-          "DM74LS245N",
-          3,
-          "PDIP-20_L25.9-W6.6-P2.54-LS7.9-BL",
-          "BUS_IN,BUS_OUT,OUT",
-          {
-            "Manufacturer Part": "DM74LS245N",
-            "Manufacturer": "onsemi(安森美)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C3587235"
-          }
-        ],
-        [
-          "75915-410LF",
-          1,
-          "HDR-TH_10P-P2.54-V-F-1",
-          "CTRL",
-          {
-            "Manufacturer Part": "75915-410LF",
-            "Manufacturer": "Amphenol",
-            "Supplier": "LCSC",
-            "Supplier Part": "C3321291"
-          }
-        ],
-        [
-          "SN74LS08N",
-          1,
-          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
-          "CTRL1",
-          {
-            "Manufacturer Part": "SN74LS08N",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C2869595"
-          }
-        ],
-        [
-          "SN74LS32N",
-          1,
-          "PDIP-14_L19.6-W6.5-P2.54-LS7.9-BL",
-          "CTRL2",
-          {
-            "Manufacturer Part": "SN74LS32N",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C273644"
-          }
-        ],
-        [
-          "XDM254-1-16-W-8.5-G0",
-          1,
-          "HDR-TH_16P-P2.54-H-F-W10.0-N",
-          "DATA",
-          {
-            "Manufacturer Part": "XDM254-1-16-W-8.5-G0",
-            "Manufacturer": "XUNDA(讯答)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C19268747"
-          }
-        ],
-        [
-          "SN74LS169BN",
-          2,
-          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
-          "R_H,R_L",
-          {
-            "Manufacturer Part": "SN74LS169BN",
-            "Manufacturer": "TI(德州仪器)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C1548008"
-          }
-        ],
-        [
-          "XD74LS181",
-          2,
-          "DIP-24_L32.0-W13.8-P2.54-LS15.6-BL",
-          "U1,U2",
-          {
-            "Manufacturer Part": "XD74LS181",
-            "Manufacturer": "XINLUDA(信路达)",
-            "Supplier": "LCSC",
-            "Supplier Part": "C561300"
-          }
-        ]
-      ],
-      "updateTime": 1783501907,
-      "createTime": 1783501853,
-      "histories": [],
-      "created_at": "2026-07-08 18:10:53",
-      "updated_at": "2026-07-08 18:11:47"
+      "updated_at": "2026-07-09 19:07:46"
     },
     {
       "uuid": "9c2d546963468ebda754a51145adde45",
@@ -228,12 +119,12 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "e3f3b4a7a39d41c18528599e89a109ed": 1,
         "dbf8bf2c4285421f9f2eb915163d57a0": 3,
-        "2278810e3ec34c089b6a38ee87d430b2": 1,
         "7f0ad408a835483d8942d64d433787e6": 1,
         "e5060eb2ad63465281422a9e097e9937": 1,
-        "4d32c6da5cfe43d381509c7b1fb89522": 1,
-        "5274406e19354d008c5fde605f0c6ecf": 2
+        "5274406e19354d008c5fde605f0c6ecf": 2,
+        "b82c9e076b5e480ea3a85d17b545349c": 1
       },
       "BOM": [
         [
@@ -316,19 +207,19 @@
           }
         ]
       ],
-      "updateTime": 1783501838,
+      "updateTime": 1783970239,
       "createTime": 1783489088,
       "histories": [],
       "created_at": "2026-07-08 14:38:08",
-      "updated_at": "2026-07-08 18:10:38"
+      "updated_at": "2026-07-14 04:17:19"
     }
   ],
   "sort": [
     "9887a774f3d23ea4276c30bbbce5f7e9",
     "39b9ed6b8173d322f2a39680ab18f3be"
   ],
-  "title": "Computer",
-  "foldername": "Computer",
+  "title": "ComputerHardware",
+  "foldername": "ComputerHardware",
   "schfilename": "Computer.json",
-  "schfilemtime": 1783501907133
+  "schfilemtime": 1783591666564
 }
