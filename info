@@ -4,7 +4,7 @@
   "name": "ComputerHardware",
   "content": "",
   "created_at": "2026-07-08 13:09:45",
-  "updated_at": "2026-07-14 04:17:19",
+  "updated_at": "2026-07-15 04:22:34",
   "stick": "",
   "documents": [
     {
@@ -20,7 +20,8 @@
         "3f1eddb3d4d145aaa844f5b3c669afdd": 1,
         "2005b78168804f92812ab2f59aca6fb7": 3,
         "6964f30e51ca42c78f718c6e74460273": 1,
-        "8f8dd1ab514f441380aff6d3d1b7a8d0": 1
+        "8f8dd1ab514f441380aff6d3d1b7a8d0": 1,
+        "e9f71c2386074942b7cef259c39e047b": 8
       },
       "BOM": [
         [
@@ -33,7 +34,7 @@
         [
           "74x245",
           3,
-          "PDIP-20_L25.9-W6.6-P2.54-LS7.9-BL",
+          "PDIP-20_L24.5-W6.4-P2.54-LS7.9-BL",
           "ALWAYS_OUT,BUS_IN,BUS_OUT",
           {
             "Manufacturer Part": "DM74LS245N",
@@ -57,7 +58,7 @@
         [
           "74x08",
           1,
-          "PDIP-14_L19.3-W6.4-P2.54-LS7.9-BL-1",
+          "PDIP-14_L19.6-W6.5-P2.54-LS7.9-BL",
           "CTRL1",
           {
             "Manufacturer Part": "SN74LS08N",
@@ -91,9 +92,21 @@
           }
         ],
         [
+          "10kΩ",
+          8,
+          "RES-TH_BD2.3-L6.5-P10.50-D0.5",
+          "R1,R2,R3,R4,R5,R6,R7,R8",
+          {
+            "Manufacturer Part": "MF1/4W-10KΩ±1% T",
+            "Manufacturer": "CCO(千志电子)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C119347"
+          }
+        ],
+        [
           "74x169",
           2,
-          "PDIP-16_L19.3-W6.4-P2.54-LS7.9-BL",
+          "PDIP-16_L19.6-W6.5-P2.54-LS7.9-BL",
           "R_H,R_L",
           {
             "Manufacturer Part": "SN74LS169BN",
@@ -103,11 +116,11 @@
           }
         ]
       ],
-      "updateTime": 1783591666,
+      "updateTime": 1784056954,
       "createTime": 1783483785,
       "histories": [],
       "created_at": "2026-07-08 13:09:45",
-      "updated_at": "2026-07-09 19:07:46"
+      "updated_at": "2026-07-15 04:22:34"
     },
     {
       "uuid": "9c2d546963468ebda754a51145adde45",
@@ -119,11 +132,11 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "9ea59130ae074fa3abe27de8cbf71d91": 8,
+        "c11b37ad0b7947b58462d6df1725d63c": 3,
+        "11b651aca3524071986d3859d73daf98": 2,
+        "e5060eb2ad63465281422a9e097e9937": 2,
         "e3f3b4a7a39d41c18528599e89a109ed": 1,
-        "dbf8bf2c4285421f9f2eb915163d57a0": 3,
-        "7f0ad408a835483d8942d64d433787e6": 1,
-        "e5060eb2ad63465281422a9e097e9937": 1,
-        "5274406e19354d008c5fde605f0c6ecf": 2,
         "b82c9e076b5e480ea3a85d17b545349c": 1
       },
       "BOM": [
@@ -207,19 +220,19 @@
           }
         ]
       ],
-      "updateTime": 1783970239,
+      "updateTime": 1784056586,
       "createTime": 1783489088,
       "histories": [],
       "created_at": "2026-07-08 14:38:08",
-      "updated_at": "2026-07-14 04:17:19"
+      "updated_at": "2026-07-15 04:16:26"
     }
   ],
   "sort": [
     "9887a774f3d23ea4276c30bbbce5f7e9",
-    "39b9ed6b8173d322f2a39680ab18f3be"
+    "4bfb5964c7eb839787cd947deed42c35"
   ],
   "title": "ComputerHardware",
   "foldername": "ComputerHardware",
   "schfilename": "Computer.json",
-  "schfilemtime": 1783591666564
+  "schfilemtime": 1784056954715
 }
